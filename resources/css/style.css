@@ -4,15 +4,19 @@ body{
   font-family: helvetica, sans-serif;
   font-size: 22px;
   opacity: 0.9;
+  margin: 0 auto;
 }
 header{
   display: flex;
   border-bottom: 1px solid seashell;
   position: fixed;
+  background-color: black;
+  width: 100%;
 }
 main{
   display: flex;
   flex-direction: column;
+  width: 1200px;
 }
 a{
   color: seashell;
@@ -37,7 +41,6 @@ nav span{
   flex-wrap: wrap;
   background-image: url("../images/img-mission-background.jpg");
   background-size: cover;
-  width: auto;
   height: 700px;
   align-items: center;
 }
