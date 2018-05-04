@@ -17,6 +17,7 @@ main{
   display: flex;
   flex-direction: column;
   width: 1200px;
+  margin: 0 auto;
 }
 a{
   color: seashell;
@@ -61,7 +62,7 @@ nav span{
 .all-images{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   width: 1000px;
 }
 .pic img{
