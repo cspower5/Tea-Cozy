@@ -33,6 +33,7 @@ nav span{
 }
 .mission{
   display: flex;
+  flex-wrap: wrap;
   background-image: url("../images/img-mission-background.jpg");
   background-size: cover;
   width: auto;
@@ -41,8 +42,6 @@ nav span{
 }
 .tea{
   display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
   justify-content: center;
 }
 .location{
@@ -51,6 +50,8 @@ nav span{
 }
 .banner{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: black;
   width: 1200px;
 }
@@ -63,6 +64,5 @@ nav span{
 .pic img{
   width: 300px;
   height: 200px;
-  flex-grow: 1;
   margin: 10px;
 }
