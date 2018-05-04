@@ -8,6 +8,7 @@ body{
 header{
   display: flex;
   border-bottom: 1px solid seashell;
+  position: fixed;
 }
 main{
   display: flex;
@@ -41,19 +42,18 @@ nav span{
   align-items: center;
 }
 .tea{
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
 }
 .location{
   display: flex;
   border: 3px solid green;
 }
 .banner{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   background-color: black;
   width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 .all-images{
   display: flex;
