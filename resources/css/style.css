@@ -9,6 +9,10 @@ header{
   display: flex;
   border-bottom: 1px solid seashell;
 }
+main{
+  display: flex;
+  flex-direction: column;
+}
 a{
   color: seashell;
 }
@@ -26,10 +30,6 @@ nav span{
   display: flex;
   align-items: center;
   padding: 10px;
-}
-main{
-  display: flex;
-  flex-direction: column;
 }
 .mission{
   display: flex;
@@ -54,15 +54,15 @@ main{
   background-color: black;
   width: 1200px;
 }
-.titles{
-  display: flex;
-}
 .all-images{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1000px;
 }
 .pic img{
-  display: flex;
-  justify-content: space-between;
   width: 300px;
   height: 200px;
+  flex-grow: 1;
+  margin: 10px;
 }
