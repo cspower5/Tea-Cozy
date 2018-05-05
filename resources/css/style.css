@@ -76,7 +76,7 @@ nav span{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: black;
+  margin: 0 auto;
 }
 .loc{
   width: 300px;
@@ -85,4 +85,14 @@ nav span{
   background-color: black;
   opacity: 1;
   text-align: center;
+}
+.footer{
+  height: 200px;
+}
+.contact-info {
+  text-align: center;
+}
+.copyright{
+  margin-left: 20px;
+  text-align: left;
 }
