@@ -39,21 +39,26 @@ nav span{
 }
 .mission{
   display: flex;
+  align-items: center;
   background-image: url("../images/img-mission-background.jpg");
   background-size: cover;
   height: 700px;
-  align-items: center;
+
 }
 .tea{
   margin: 0 auto;
   text-align: center;
 }
 .locations{
-  display: flex;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: center;*/
+  /*align-items: center;*/
   background-image: url("../images/img-locations-background.jpg");
   background-size: cover;
   height: 500px;
-  align-items: center;
+  text-align: center;
+  margin: 0 auto;
 }
 .banner{
   background-color: black;
@@ -65,7 +70,6 @@ nav span{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 1000px;
 }
 .pic img{
   width: 300px;
@@ -75,13 +79,17 @@ nav span{
 .all-locs{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
+  flex-grow: 1;
+  justify-content: space-between;
+  background-color: black;
+  width: 1200px;
+  text-align: center;
 }
 .loc{
-  width: 300px;
-  height: 300px;
-  margin: 15px;
+  /*display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;*/
   background-color: black;
   opacity: 1;
   text-align: center;
